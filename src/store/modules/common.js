@@ -17,7 +17,7 @@ export default {
     mainTabsActiveName: '',
     // 系统名称 系统简称 系统标志
     sysName: '杰信测绘',
-    simpleName: '杰信测绘',
+    simpleName: 'YGG最帅',
     sysFlag: ''
   },
   mutations: {
