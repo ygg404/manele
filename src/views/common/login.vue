@@ -20,7 +20,7 @@
         </el-form>
       </div>
       <div class="site-bottom">
-        <div>Copyright © 2020 gdjxch.cn All rights reserved.</div>
+        <div>Copyright © 2020 yggnb.cn All rights reserved.</div>
         <div><a href="http://www.beian.miit.gov.cn">粤ICP备19096985号</a></div>
       </div>
 
