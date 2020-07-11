@@ -25,7 +25,7 @@
     "gulp-replace": "0.6.1",
     "gulp-shell": "0.6.5",
     "kindeditor": "^4.1.10",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "lrz": "^4.9.40",
     "moment": "^2.24.0",
     "node-sass": "^4.14.1",
