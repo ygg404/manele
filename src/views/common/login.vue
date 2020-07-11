@@ -21,7 +21,7 @@
       </div>
       <div class="site-bottom">
         <div>Copyright © 2020 yggnb.cn All rights reserved.</div>
-        <div><a href="http://www.beian.miit.gov.cn">粤ICP备19096985号</a></div>
+        <div><a href="http://www.beian.miit.gov.cn">粤ICP备20059800号</a></div>
       </div>
 
     </div>
