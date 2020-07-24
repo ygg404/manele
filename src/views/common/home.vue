@@ -2,21 +2,22 @@
   <div class="mod-home">
     <el-card>
       <h1>个人中心</h1>
-      <el-row :gutter="20">
-        <el-col :span="18">
-          <el-row :gutter="20"><el-col :span="4"><span class="span_row">账号：</span></el-col><el-col :span="4"><span class="font_span">{{userDetail.useraccount}}</span></el-col></el-row>
-          <el-row :gutter="20"><el-col :span="4"><span class="span_row">姓名：</span></el-col><el-col :span="4"><span class="font_span">{{userDetail.username}}</span></el-col></el-row>
-          <el-row :gutter="20">
-            <el-col :span="4"><span class="span_row">所属角色：</span></el-col>
-            <el-col :span="8"><span><el-tag v-for="(item,index) in userDetail.roleList" :key="index" style="margin-left: 5px;">{{item}}</el-tag></span></el-col>
-          </el-row>
-          <el-row :gutter="20"><el-col :span="4">
-            <span class="span_row">所属工作组：</span></el-col>
-            <el-col :span="8"><span><el-tag v-for="(item,index) in userDetail.groupList" :key="index" style="margin-left: 5px;">{{item}}</el-tag></span></el-col>
-          </el-row>
-        </el-col>
-        <el-col :span="6"><img src="~@/assets/img/avatar.png"  style="height:250px;"/></el-col>
-      </el-row>
+        <div id='baidu_tj'></div>
+<!--      <el-row :gutter="20">-->
+<!--        <el-col :span="18">-->
+<!--          <el-row :gutter="20"><el-col :span="4"><span class="span_row">账号：</span></el-col><el-col :span="4"><span class="font_span">{{userDetail.useraccount}}</span></el-col></el-row>-->
+<!--          <el-row :gutter="20"><el-col :span="4"><span class="span_row">姓名：</span></el-col><el-col :span="4"><span class="font_span">{{userDetail.username}}</span></el-col></el-row>-->
+<!--          <el-row :gutter="20">-->
+<!--            <el-col :span="4"><span class="span_row">所属角色：</span></el-col>-->
+<!--            <el-col :span="8"><span><el-tag v-for="(item,index) in userDetail.roleList" :key="index" style="margin-left: 5px;">{{item}}</el-tag></span></el-col>-->
+<!--          </el-row>-->
+<!--          <el-row :gutter="20"><el-col :span="4">-->
+<!--            <span class="span_row">所属工作组：</span></el-col>-->
+<!--            <el-col :span="8"><span><el-tag v-for="(item,index) in userDetail.groupList" :key="index" style="margin-left: 5px;">{{item}}</el-tag></span></el-col>-->
+<!--          </el-row>-->
+<!--        </el-col>-->
+<!--        <el-col :span="6"><img src="~@/assets/img/avatar.png"  style="height:250px;"/></el-col>-->
+<!--      </el-row>-->
     </el-card>
 
     <div class="bottom_btn">
