@@ -27,8 +27,8 @@
         type: String,
         default: 'WeditorId'
       },
-      // 编辑的项目编号
-      projectNo: {
+      // 编辑的章节编号
+      sectionNo: {
         type: String,
         default: 'No'
       }
@@ -61,12 +61,12 @@
         let that = this
         this.editor = new E('#' + this.id)
         this.editor.customConfig.uploadImgShowBase64 = false // base 64 存储图片
-        this.editor.customConfig.uploadImgServer = window.SITE_CONFIG['baseUrl'] + '/project/quality/uploadEditorImg'
+        this.editor.customConfig.uploadImgServer = window.SITE_CONFIG['baseUrl'] + '/article/content/uploadEditorImg'
         this.editor.customConfig.uploadFileName = 'file' // 后端接受上传文件的参数名
         this.editor.customConfig.uploadImgMaxSize = 3 * 1024 * 1024 // 将图片大小限制为 3M
         this.editor.customConfig.uploadImgTimeout = 2 * 60 * 1000 // 设置超时时间
         this.editor.customConfig.uploadImgParams = {
-          projectNo: this.projectNo
+          sectionNo: this.sectionNo
         }
         this.editor.customConfig.uploadImgHeaders = {
           'token': Vue.cookie.get('token')

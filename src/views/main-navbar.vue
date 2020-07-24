@@ -3,7 +3,7 @@
     <div class="site-navbar__header">
       <h1 class="site-navbar__brand" @click="homeHandle">
         <a class="site-navbar__brand-lg" href="javascript:;">{{sysName}}</a>
-        <a class="site-navbar__brand-mini" href="javascript:;">杰信</a>
+        <a class="site-navbar__brand-mini" href="javascript:;">YGG</a>
       </h1>
     </div>
     <div class="site-navbar__body clearfix">

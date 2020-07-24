@@ -5,9 +5,9 @@
   window.SITE_CONFIG = {};
 
   // api接口请求地址
-  window.SITE_CONFIG['baseUrl'] = 'https://www.gdjxch.cn/mansys';
+  window.SITE_CONFIG['baseUrl'] = 'http://web.yggnb.cn/mansys';
   // 文件地址
-  window.SITE_CONFIG['uploadUrl'] = 'https://www.gdjxch.cn/uploadFile/';
+  window.SITE_CONFIG['uploadUrl'] = 'http://game.yggnb.cn/uploadFile/';
 
   // cdn地址 = 域名 + 版本号
   window.SITE_CONFIG['domain']  = './'; // 域名
